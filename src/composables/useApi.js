@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://api.magicthegathering.io/v1/',
+  baseURL: 'http://i.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73',
 })
 
 const useApi = () => {
